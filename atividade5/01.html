@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade5</title>
+    <style>
+        form{
+            width: 800px;
+            margin-left: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="form2.html" method="get">
+        <fieldset>
+            <legend>Formulários</legend>
+            <label for="nome">Nome completo</label>
+            <input type="text" name="nome" id="nome"><br><br>
+            <label for="idadeNascimento">Data de nascimento</label>
+            <input type="date" name="idadeNascimento" id="idadeNascimento"><br><br>
+
+            <label for="estado">Selecione o estado em que mora</label>
+            <select name="estado" id="estados">
+                <optgroup label="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                </optgroup>
+
+            </select><br><br>
+
+            
+                <label for="genero" >Gênero</label><br>
+                <input type="radio" name="genero" id="feminino" value="feminino"><br>
+                <label for="genero">Feminino</label><br>
+                <input type="radio" name="genero" id="masculino" value="masculino"><br>
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" name="genero" id="outro" value="outro"><br>
+                <label for="outro"></label>Outro</label><br><br>
+            
+                
+
+            <label for="soma" class="">5+4 é?</label>
+            <input type="number" name="soma" id="soma">
+            <input type="submit" value="Salvar">
+           
+        </fieldset>
+    </form>
+</body>
+
+</html>
